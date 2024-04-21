@@ -21,7 +21,7 @@ export class UncommonPageComponent {
   }
 
   // i18nPlural Pipe
-  public clients: string[] = ['Ricardo', 'Bárbara', 'JuanPablo', 'Yanet', 'Andrea', 'Fernanda', 'Clhoe'];
+  public clients: string[] = ['Ricardo', 'Bárbara', 'JuanPablo', 'Yanet', 'Andrea', 'Fernanda'];
   public clientsMap = {
     '=0': "We don't have any clients waiting.",
     '=1': 'We have a client waiting.',
