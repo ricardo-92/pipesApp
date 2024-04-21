@@ -12,32 +12,32 @@ export class MenuComponent {
     ngOnInit() {
       this.menuItems = [
         {
-          label: 'Pipes de Angular',
+          label: 'Angular Pipes',
           icon: 'pi pi-desktop',
           items: [
             {
-              label: 'Textos y Fechas',
+              label: 'Texts & Dates',
               icon: 'pi pi-align-left',
               routerLink: '/'
             },
             {
-              label: 'Números',
+              label: 'Numbers',
               icon: 'pi pi-dollar',
               routerLink: 'numbers'
             },
             {
-              label: 'No comunes',
+              label: 'Uncommon',
               icon: 'pi pi-globe',
               routerLink: 'uncommon'
             },
           ]
         },
         {
-          label: 'Pipes personalizados',
+          label: 'Personalized Pipes',
           icon: 'pi pi-cog',
           items: [
             {
-              label: 'Otro elemento',
+              label: 'Others Elements',
               icon: 'pi pi-cog',
             }
           ]

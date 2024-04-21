@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule as SharedModule } from "./shared/shared.module";
+import { ButtonModule } from 'primeng/button';
 
 // CONFIGURACIÓN DEL LOCALE DE LA APP
 import localeEsCL from '@angular/common/locales/es-CL';
@@ -28,7 +29,8 @@ registerLocaleData( localeFrCa);
         BrowserModule,
         BrowserAnimationsModule,
         AppRoutingModule,
-        SharedModule
+        SharedModule,
+        ButtonModule
     ]
 })
 export class AppModule { }

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from './components/menu/menu.component';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
+import { ButtonModule } from 'primeng/button';
 
 
 
@@ -11,10 +12,11 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
   ],
   imports: [
     CommonModule,
-    PrimeNgModule
+    PrimeNgModule,
+    ButtonModule
   ],
   exports: [
-    MenuComponent
+    MenuComponent,
   ]
 })
 export class SharedModule { }
