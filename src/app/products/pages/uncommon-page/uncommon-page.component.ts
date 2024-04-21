@@ -21,7 +21,7 @@ export class UncommonPageComponent {
   }
 
   // i18nPlural Pipe
-  public clients: string[] = ['Ricardo', 'Bárbara', 'JuanPablo', 'Yanet', 'Andrea', 'Fernanda'];
+  public clients: string[] = ['Ricardo', 'Bárbara', 'JuanPablo', 'Lia', 'Andrea', 'Fernanda'];
   public clientsMap = {
     '=0': "We don't have any clients waiting.",
     '=1': 'We have a client waiting.',
@@ -31,5 +31,12 @@ export class UncommonPageComponent {
 
   deleteClient():void {
     this.clients.shift();
+  }
+
+  // KeyValue Pipe
+  public person ={
+    name: 'Ricardo',
+    age: 31,
+    addres: 'Recoleta, Chile'
   }
 }
