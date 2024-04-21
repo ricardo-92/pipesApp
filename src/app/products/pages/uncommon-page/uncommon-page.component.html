@@ -19,7 +19,11 @@
 
   <div class="col-12 md:col-6 lg:col-3">
     <p-fieldset legend="i18nPlural Pipe" [toggleable]="true">
-
+      <p>
+        {{ clients.length | i18nPlural:clientsMap }}
+      </p>
+      <p-button label="Delete client"
+        (click)="deleteClient()"></p-button>
     </p-fieldset>
   </div>
 
