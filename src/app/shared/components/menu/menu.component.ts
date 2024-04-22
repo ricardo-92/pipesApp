@@ -33,12 +33,13 @@ export class MenuComponent {
           ]
         },
         {
-          label: 'Personalized Pipes',
+          label: 'Custom Pipes',
           icon: 'pi pi-cog',
           items: [
             {
-              label: 'Others Elements',
+              label: 'Custom Pipes',
               icon: 'pi pi-cog',
+              routerLink: 'custom'
             }
           ]
         }
