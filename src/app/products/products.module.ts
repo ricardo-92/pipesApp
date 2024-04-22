@@ -9,6 +9,7 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 import { Button, ButtonModule } from 'primeng/button';
 import { OrderComponent } from './pages/order/order.component';
 import { ToggleCasePipe } from './pipes/toggle-case.pipe';
+import { CanFlyPipe } from './pipes/canfly.pipe';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ToggleCasePipe } from './pipes/toggle-case.pipe';
     OrderComponent,
 
     // Pipes
-    ToggleCasePipe
+    ToggleCasePipe,
+    CanFlyPipe
   ],
   imports: [
     CommonModule,
